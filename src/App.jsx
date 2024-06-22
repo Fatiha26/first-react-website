@@ -8,6 +8,7 @@ import Contact from './Contact';
 import Services from './Services';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './Navbar';
+import Footer from './Footer';
 const App = () => {
     return (
         <>
@@ -18,6 +19,8 @@ const App = () => {
             <Route path='/service' Component={Services}></Route>
             <Route path='/contact' Component={Contact}></Route>
             <Route path="*" element={<Navigate to="/" />} /></Routes>
+            <Footer/>
+       
         </>
     )
 };
