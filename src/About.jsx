@@ -1,6 +1,5 @@
 import React from 'react'
-import web from "../src/img/img1.svg"
-import { NavLink } from 'react-router-dom';
+import web from "../src/img/2.svg"
 import Common from './Common';
 const About = () => {
     return (
